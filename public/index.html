@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Stop-Watch</title>
+</head>
+<body>
+    <div class="container-fluid">
+<!-- Image and text -->
+      <h2 style="color:aqua;font-family: cursive;font-size: 30pt ;opacity: 0.5;padding-top: 20px;"> <center> <u> STOPWATCH</u></center>  </h2>
+  <br><br>
+  <div class= "time">
+        <h1 id="hr">0 </h1><span style="font-size: 11pt;font-weight: bold;position: relative;right: 55px;top: 10px;"> <sub>Hours</sub> </span>
+        <h1 id="min">0</h1> <span style="font-size: 11pt;font-weight: bold;position: relative;right: 60px;top: 10px;"> <sub>Minutes</sub> </span>
+        <h1 id="sec">0 </h1><span style="font-size: 11pt;font-weight: bold;position: relative;right: 60px;top: 10px;"> <sub>Seconds</sub> </span>
+        <h1 id="msec">0 </h1><span style="font-size: 11pt;font-weight: bold;position: relative;right: 40px;top: 10px;"> <sub>ms</sub> </span>
+  </div>
+  <div>
+      <button id ="btn" class = "btn bg-dark" style="color: aqua;" onclick="Start()" >Start</button>
+      <button class = "btn bg-primary" onclick="Stop()">Stop</button>
+      <button class = "btn bg-info" onclick="Reset()">Reset</button>
+  </div>
+    
+  <nav class="navbar fixed-bottom navbar-light bg-transparent">
+    <a style="color: rgb(246, 246, 246);opacity: 0.5;" class="navbar-brand" href="#"> <i>Stop-Watch Developed By<br>Muhammad Ibad Saleem</i></a>
+  </nav>
+</div>
+
+</body>
+<script src="app.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</html>
